@@ -1,0 +1,126 @@
+characters={
+	ALC_carlos={
+		name=Carlos
+		portraits={
+			army={
+				small="gfx/interface/ideas/small_carlos.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = carlos_communist
+			allowed = {
+				original_tag = ALC
+			}
+			available = {
+				is_puppet = no
+			}
+			traits = {
+				communist_revolutionary patriotic_socialist marxist_fundementalist
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ALC_dani_2={
+		name=Daniel
+		portraits={
+			army={
+				small="gfx/interface/ideas/small_dani_2.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = dani_democratic
+			allowed = {
+				original_tag = ALC
+			}
+			available = {
+				is_puppet = no
+			}
+			traits = {
+				democratic_reformer liberal_journalist popular_figurehead
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ALC_samuel_2={
+		name=Samuel
+		portraits={
+			army={
+				small="gfx/interface/ideas/small_samuel_2.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = samuel_fascist
+			allowed = {
+				original_tag = ALC
+			}
+			available = {
+				is_puppet = no
+			}
+			traits = {
+				fascist_demagogue war_industrialist propaganda_expert
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ALC_cristian={
+		name=Cristian
+		portraits={
+			army={
+				small="gfx/interface/ideas/small_cristian.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = cristian_captain
+			allowed = {
+				original_tag = ALC
+			}
+			available = {
+				is_puppet = no
+			}
+			traits = {
+				captain_of_industry national_integralist
+			}
+			ai_will_do = {
+				factor = 20.000
+			}
+		}
+	}
+
+	ALC_ismael={
+		name=Ismael
+		portraits={
+			army={
+				small="gfx/interface/ideas/small_ismael.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = editor
+			allowed = {
+				original_tag = ALC
+			}
+			available = {
+				is_puppet = no
+			}
+			traits = {
+				prince_of_terror editor head_of_intelligence
+			}
+			ai_will_do = {
+				factor = 24.000
+			}
+		}
+	}
+}

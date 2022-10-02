@@ -1,0 +1,70 @@
+﻿divison_template = {
+	name = "Divison Azul"
+
+	division_names_group = ALC_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Caballeria"
+
+	division_names_group = ALC_ARM_02
+
+	regiments = {
+		cavalary = { x = 0 y = 0 }
+		cavalary = { x = 1 y = 0 }
+		cavalary = { x = 2 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "Brigada Mixta"
+		location = 9889
+		division_template = "Division Azul"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Brigada Mixta"
+		location = 9889
+		division_template = "Division Azul"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Fuerza de Ataque El Clavo"
+		location = 9889
+		division_template = "Caballeria"
+		start_experience_factor = 0.3
+	}
+
+		division = {
+		name = "Fuerza de Ataque El Clavo"
+		location = 9889
+		division_template = "Caballeria"
+		start_experience_factor = 0.3
+	}
+}
+
+instant_effect {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ALC"
+		}
+		requested_factories = 1
+		progress = 0.65
+		effiency = 100
+	}
+}

@@ -1,0 +1,145 @@
+capital = 835
+
+oob = "ALC_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	basic_train = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	basic_machine_tools = 1
+	fuel_silos = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+
+	}
+
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+}
+
+set_convoys = 75
+set_stability = 0.3
+set_war_support = 0.1
+
+create_import = {
+		resource = steel
+		factories = 1
+		exporter = SPR
+}
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.5.9"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 30
+	fascism = 50
+	neutrality = 10
+	communism = 10
+}
+
+create_country_leader = {
+	name = "Samuel Climent"
+	desc = "POLITICS_SAMUEL_PRESIDENTE_DESC"
+	picture = "samuel.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daniel Monerris"
+	desc = "POLITICS_MONERRIS_PRESIDENTE_DESC"
+	picture = "dani.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Marc Maldonado"
+	desc = "POLITICS_MARCM_PRESIDENTE_DESC"
+	picture = "marcm.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jaime "
+	desc = "POLITICS_JAIME_PRESIDENTE_DESC"
+	picture = "jaime.dds"
+	expire = "1965.1.1"
+	ideology = anarchism
+	traits = {
+	}
+}
+
+recruit_character = ALC_cristian
+recruit_character = ALC_ismael
+recruit_character = ALC_samuel_2
+recruit_character = ALC_carlos
+recruit_character = ALC_dani_2
+
+create_corps_commander = {
+	name = "Hugo Tolosa Bataller"
+	picture = "hugo.dds"
+	traits = {  }
+	skill =  4
+	attack_skill = 4
+	defense_skill =  3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hugo Tolosa"
+	picture = "hugo_2.dds"
+	traits = {  }
+	skill =  4
+	attack_skill = 4
+	defense_skill =  3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hugo"
+	picture = "hugo_3.dds"
+	traits = {  }
+	skill =  4
+	attack_skill = 4
+	defense_skill =  3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "nose"
+	picture = "hugo_y_sam.dds"
+	traits = {  }
+	skill =  4
+	attack_skill = 4
+	defense_skill =  3
+	planning_skill = 1
+	logistics_skill = 1
+}

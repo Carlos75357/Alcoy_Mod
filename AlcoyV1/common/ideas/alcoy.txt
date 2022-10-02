@@ -1,0 +1,68 @@
+#ideas = {
+#	
+#	political_advisor = {
+#
+#		ALC_democratic_guy = {
+#
+#			picture = dani_2.dds
+#
+#			allowed = {
+#				original_tag = ALC
+#			}
+#
+#			traits = { democratic_reformer }
+#
+#			do_effect = {
+#				NOT = {
+#					has_government = democratic
+#				}
+#			}
+#
+#			ai_will_do = {
+#				factor = 0
+#			}
+#		}
+#
+#		ALC_communist_guy = {
+#
+#			picture = carlos.dds
+#
+#			allowed = {
+#				original_tag = ALC
+#			}
+#
+#			traits = { communist_revolutionary }
+#
+#			do_effect = {
+#				NOT = {
+#					has_government = communism
+#				}
+#			}
+#
+#			ai_will_do = {
+#				factor = 0
+#			}
+#		}
+#
+#		ALC_fascist_guy = {
+#
+#			picture = samuel_2.dds
+#
+#			allowed = {
+#				original_tag = ALC
+#			}
+#
+#			traits = { fascist_demagogue }
+#
+#			do_effect = {
+#				NOT = {
+#					has_government = fascism
+#				}
+#			}
+#
+#			ai_will_do = {
+#				factor = 0
+#			}
+#		}		
+#	}
+#}

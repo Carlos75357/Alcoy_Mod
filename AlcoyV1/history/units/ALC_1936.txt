@@ -1,0 +1,90 @@
+﻿division_template = {
+	name = "División Azul"
+
+	division_names_group = SPAN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Caballeria"
+
+	division_names_group = SPAN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 2 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Brigada de Montaña"
+
+	division_names_group = SPAN_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		#name = "Brigada Mixta"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9889
+		division_template = "División Azul"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		#name = "Montañeros"
+
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9889
+		division_template = "Brigada de Montaña"
+		start_experience_factor = 0.8
+	}
+
+	division = {
+		#name = "Fuerza de Ataque El Clavo"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9889
+		division_template = "Caballeria"
+		start_experience_factor = 0.3
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ALC"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}
