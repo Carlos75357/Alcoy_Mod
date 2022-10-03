@@ -1,0 +1,33 @@
+#   focus = {
+#		id =
+#		icon =
+#		x = 3
+#		y = 5
+#		relative_position_id =
+#
+#		available = {
+#
+#		}
+#
+#		bypass = {
+#		}
+#
+#		cost = 10
+#		prerequisite = {  }
+#
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		completion_reward = {
+#
+#			}
+#		}
+#		ai_will_do = {
+#			factor = 1
+#			modifier = {
+#
+#			}
+#		}
+#	}

@@ -1,4 +1,4 @@
-version="1"
+version="1.1"
 picture="thumbnail.jpg"
 tags={
 	"Alternative History"
@@ -8,5 +8,5 @@ tags={
 	"Events"
 }
 name="Alcoy"
-supported_version="1.11.9"
+supported_version="1.12.2"
 remote_file_id="2613954213"
