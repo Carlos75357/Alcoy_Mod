@@ -9,12 +9,13 @@ F3:
 Focos terrestre y aereo
 
 ta: experiencia aérea y terrestre +25
-ta1:
-ta2:
-ta3:
+ta1: experiencia aérea y terrestre +10, añade idea: -10% coste producción aviones.
+ta2: experiencia aérea y terrestre +5, modifica idea: -10% coste producción rifles.
+ta3: experiencia aérea y terrestre +15, modifica idea: -5% coste producción rifles y aviones.
 
-t:
-tm:
+t: esperiencia terrestre +5, añadir nuevo general (potente), añadir idea +10% velocidad de las divisiones, -
+- activar misión para elegir entre tanques o infanteria (depende de que se elija se añaden 1 divisón de lo elegido).
+tm: 
 tm1:
 tm11:
 tm12:
