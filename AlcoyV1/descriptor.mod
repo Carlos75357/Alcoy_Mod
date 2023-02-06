@@ -8,5 +8,5 @@ tags={
 	"Events"
 }
 name="Alcoy"
-supported_version="1.12.2"
+supported_version="1.12.3"
 remote_file_id="2613954213"

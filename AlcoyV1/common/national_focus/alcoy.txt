@@ -19,8 +19,8 @@
 	focus = {
 		id = ALC_Inicio
 		icon = GFX_goal_generic_major_war
-		x = 30
-		y = 50
+		x = 55
+		y = 1
 		#relative_position_id =
 		
 		cost = 10
@@ -31,6 +31,508 @@
 
 		completion_reward = {
 			add_political_power = 100
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	#Focos rama comunista
+	
+	focus = {
+		id = alc_communist
+		#icon =
+		x = -35
+		y = 1
+		relative_position_id = ALC_Inicio
+		
+		cost = 10
+		prerequisite = { focus = ALC_Inicio }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	#Focos rama fascista
+	
+	focus = {
+		id = alc_fascist
+		#icon =
+		x = -12
+		y = 1
+		relative_position_id = ALC_Inicio
+		
+		cost = 10
+		prerequisite = { focus = ALC_Inicio }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1
+		#icon =
+		x = -3
+		y = 1
+		relative_position_id = alc_fascist
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1a
+		#icon =
+		x = 1
+		y = 1
+		relative_position_id = alc_fascist_1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1a1
+		#icon =
+		x = 0
+		y = 2
+		relative_position_id = alc_fascist_1a
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1a }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1a2
+		#icon =
+		x = 0
+		y = 2
+		relative_position_id = alc_fascist_1a1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1a1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1b
+		#icon =
+		x = -2
+		y = 1
+		relative_position_id = alc_fascist_1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1b1
+		#icon =
+		x = 0
+		y = 2
+		relative_position_id = alc_fascist_1b
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1b }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1b2
+		#icon =
+		x = 0
+		y = 2
+		relative_position_id = alc_fascist_1b1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1b1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1c
+		#icon =
+		x = -6
+		y = 1
+		relative_position_id = alc_fascist_1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1c1
+		#icon =
+		x = -1
+		y = 1
+		relative_position_id = alc_fascist_1c
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1c }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1c2
+		#icon =
+		x = 1
+		y = 1
+		relative_position_id = alc_fascist_1c
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1c }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1c3
+		#icon =
+		x = 1
+		y = 1
+		relative_position_id = alc_fascist_1c1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1c1 focus = alc_fascist_1c2 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1c4
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = alc_fascist_1c3
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1c3 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1c5
+		#icon =
+		x = 1
+		y = 1
+		relative_position_id = alc_fascist_1c4
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1c4 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1c6
+		#icon =
+		x = -1
+		y = 1
+		relative_position_id = alc_fascist_1c4
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1c4 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1ba
+		#icon =
+		x = 2
+		y = 1
+		relative_position_id = alc_fascist_1b1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1b1  focus = alc_fascist_1a1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1ba1
+		#icon =
+		x = 0
+		y = 2
+		relative_position_id = alc_fascist_1ba
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1ba }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1ba2
+		#icon =
+		x = -2
+		y = 1
+		relative_position_id = alc_fascist_1ba1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1ba1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1ba3
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = alc_fascist_1ba1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1ba1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_1ba4
+		#icon =
+		x = 1.5
+		y = 1
+		relative_position_id = alc_fascist_1ba1
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1ba1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_112
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = alc_fascist_1a2
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist_1a1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_2
+		#icon =
+		x = 3
+		y = 1
+		relative_position_id = alc_fascist
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = alc_fascist_3
+		#icon =
+		x = 8
+		y = 1
+		relative_position_id = alc_fascist
+		
+		cost = 10
+		prerequisite = { focus = alc_fascist }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	#Focos rama democratica
+	
+	focus = {
+		id = alc_democratic
+		#icon =
+		x = 12
+		y = 1
+		relative_position_id = ALC_Inicio
+		
+		cost = 10
+		prerequisite = { focus = ALC_Inicio }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	#Focos rama neutral
+	
+	focus = {
+		id = alc_neutral
+		#icon =
+		x = 35
+		y = 1
+		relative_position_id = ALC_Inicio
+		
+		cost = 10
+		prerequisite = { focus = ALC_Inicio }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
