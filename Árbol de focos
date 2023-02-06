@@ -15,20 +15,19 @@ ta3: experiencia aérea y terrestre +15, modifica idea: -5% coste producción ri
 
 t: esperiencia terrestre +5, añadir nuevo general (potente), añadir idea +10% velocidad de las divisiones, -
 - activar misión para elegir entre tanques o infanteria (depende de que se elija se añaden 1 divisón de lo elegido).
-tm: 
-tm1:
-tm11:
-tm12:
-rm13:
-tm14:
-tm15:
+tm: 100% bonús de investagación en tanque ligero, motorizada y la doctrina de blitz.
+tm1: Añade al stock 480 tanques ligeros 360 motorizada +10% war support.
+tm11: 1 año de adelanto para tanques y mecanizada, "armor division attack, defend and speed +20%".
+tm12: 50% bono de investigación de coche blindado y la doctrina de blitz, añade un nuevo general (no tan potente).
+tm13: -10% cote de producción tanques medios, mecanizada y motorizada.
+tm14: experiencia terrestre +25, se añaden 2 divisiones tanque, 4 divisiones motorizadas y 2 divisiones mecanizadas (si está investigado).
 
-ia1:
-ia2:
-ia4:
-ia4:
-ia5:
-ia6:
+ia: 100% bonús de investagación en artillería, rifle y la doctrina de ataque suave.
+ia1: Añade 2 fábricas militares en Alcoy, añade 1k de rifles al stock.
+ia2: 100% bonús de investigación para apoyo de artillería y la doctrina de ataque suave, +10% division attack and speed.
+ia3: Desbloquea la investigación de anti-tanque, antiaéreo y da 2 divisiones con artillería, infantería, antiaéreo y anti-tanques.
+ia4: Añade al stock 1.8k de rifles, 100 de antiaéreos y antitanques, 210 de artillería, bonus a la organización de +30 a la infantería.
+ia5: Se añaden 6 divisiones (como las anteriores) nuevas, y un nuevo general (Muy potente).
 
 a:
 
