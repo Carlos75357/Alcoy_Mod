@@ -525,7 +525,7 @@
 		y = 1
 		relative_position_id = ALC_Inicio
 		
-		cost = 10
+		cost = 1
 		prerequisite = { focus = ALC_Inicio }
 		
 		cancel_if_invalid = yes
@@ -542,10 +542,10 @@
 	focus = {
 		id = ta
 		#icon =
-		x = 65
+		x = 110
 		y = 1
 
-		cost = 10
+		cost = 1
 		#prerequisite = { focus = alc_fascist }
 
 		cancel_if_invalid = yes
@@ -565,12 +565,56 @@
 		x = 0
 		y = 3
 
-		cost = 10
-		prerequisite = ta
-		completiom_reward = {
+		cost = 1
+		prerequisite = {focus = ta}
+		completion_reward = {
 			army_experience = 10
 			air_experience = 10
-			add_idea =
+			add_idea = ta1_idea_army_production
+			add_idea = ta1_idea_reclu_pob
+
+		}
+	}
+
+	focus = {
+		id = ta2
+		relative_position_id = ta1
+		x = 0
+		y = 2
+
+		cost = 1
+		prerequisite = {focus = ta1}
+		completion_reward = {
+			army_experience = 5
+			air_experience = 5
+			swap_ideas = {
+				remove_idea = ta1_idea_army_production
+				add_idea = ta2_idea_air_production
+				add_idea = ta2_training_time
+			}
+
+		}
+	}
+
+	focus = {
+		id = ta3
+		relative_position_id = ta2
+		x = 0
+		y = 4
+
+		cost = 1
+		prerequisite = {focus = ta2}
+		completion_reward = {
+			army_experience = 15
+			air_experience = 15
+			swap_ideas = {
+				remove_idea = ta2_idea_air_production
+				remove_idea = ta2_training_time
+				remove_idea = ta1_idea_reclu_pob
+				add_idea = ta3_idea_air_production
+				add_idea = ta3_idea_reclu_pob
+				add_idea = ta2_training_time
+			}
 		}
 	}
 }		
