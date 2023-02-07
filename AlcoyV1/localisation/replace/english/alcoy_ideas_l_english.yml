@@ -2,9 +2,10 @@
  ta1_idea_reclu_pob:0 "prueba1poblacion"
  ta1_idea_reclu_pob_desc:0 "mujer tan bella"
  ta1_idea_army_production:0 "prueba1costesproduccion"
- ta2_idea_air_production:0 "prueba1costesproduccion"
+ ta2_idea_air_production:0 "prueba1costesAproduccion"
  ta2_training_time:0 "prueba1tiempoentrenamiento"
- ta3_idea_air_production:0 "prueba1costesproduccion"
+ ta3_idea_air_production:0 "prueba1costesAproduccion"
+ ta3_idea_army_production2:0 "prueba1costesproduccion"
  ta3_idea_reclu_pob:0 "prueba1poblacion"
  ta3_training_time:0 "prueba1tiempoentrenamiento"
 

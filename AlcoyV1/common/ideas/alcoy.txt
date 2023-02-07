@@ -190,14 +190,6 @@ ideas = {
 					build_cost_ic = -0.10
 					instant = yes
 				}
-				infantry_equipment = {
-					build_cost_ic = -0.10
-					instant = yes
-				}
-				artillery_equipment = {
-					build_cost_ic = -0.10
-					instant = yes
-				}
 			}
 		}
 		ta2_training_time = {
@@ -291,6 +283,29 @@ ideas = {
 					build_cost_ic = -0.15
 					instant = yes
 				}
+			}
+		}
+		ta3_idea_army_production2 = {
+			#picture =
+			allowed = {
+				TAG = ALC
+			}
+		
+			available = {
+			
+			}
+		
+			cancel = {
+			
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+		
+			removal_cost = -1
+		
+			equipment_bonus = {
 				infantry_equipment = {
 					build_cost_ic = -0.15
 					instant = yes

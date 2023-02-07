@@ -586,10 +586,7 @@
 		completion_reward = {
 			army_experience = 5
 			air_experience = 5
-			swap_ideas = {
-				remove_idea = ta1_idea_army_production
-				add_idea = ta2_idea_air_production
-			}
+			add_ideas = ta2_idea_air_production
 			add_ideas = ta2_training_time
 		}
 	}
@@ -610,10 +607,13 @@
 				add_idea = ta3_idea_air_production
 			}
 			swap_ideas = {
+				remove_idea = ta1_idea_army_production
+				add_idea = ta3_idea_army_production2
+			}
+			swap_ideas = {
 				remove_idea = ta1_idea_reclu_pob
 				add_idea = ta3_idea_reclu_pob
 			}
-			
 			swap_ideas = {
 				remove_idea = ta2_training_time
 				add_idea = ta3_training_time
