@@ -536,4 +536,41 @@
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
+
+	#Focos terrestre y aéreos
+
+	focus = {
+		id = ta
+		#icon =
+		x = 65
+		y = 1
+
+		cost = 10
+		#prerequisite = { focus = alc_fascist }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			army_experience = 25
+			air_experience = 25
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = ta1
+		relative_position_id = ta
+		x = 0
+		y = 3
+
+		cost = 10
+		prerequisite = ta
+		completiom_reward = {
+			army_experience = 10
+			air_experience = 10
+			add_idea =
+		}
+	}
 }		
