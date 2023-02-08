@@ -186,7 +186,7 @@ bookmarks = {
 			}
 		}
 		"ALC"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "ALC_GATHERING_STORM_DESC"
 			ideology = fascist
 			ideas = {
 			}

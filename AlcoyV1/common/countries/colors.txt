@@ -1,7 +1,7 @@
 #reload countrycolors
 ALC = {
-	color = rgb { 114 020 034 }
-	color_ui = rgb { 114 020 034 }
+	color = rgb { 118 231 197 }
+	color_ui = rgb { 140 208 185 }
 }
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
