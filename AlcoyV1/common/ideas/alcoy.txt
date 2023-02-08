@@ -67,6 +67,7 @@ ideas = {
                     }
                 }
         	}
+		#////////// Principal Terrestre Aereo //////////
 		ta1_idea_reclu_pob = {
 			#picture =
 			allowed = {
@@ -362,5 +363,7 @@ ideas = {
 				training_time_army_factor = -0.3
 			}
 		}
+		#////////// Parte terrestre //////////
+
     }
 }

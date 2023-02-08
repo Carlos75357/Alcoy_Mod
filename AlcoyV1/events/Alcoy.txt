@@ -1,0 +1,29 @@
+# Elegir entre tanques o infantería :P
+
+country_event = {
+    id = alc.1
+    title = alc.1.t
+    desc = alc.1.d
+    show_sound =
+    force_open =
+    location =
+    situation =
+    diplomatic =
+    auto_opens =
+    is_test_event =
+    option =
+    message_desc =
+    hide_window =
+    is_triggered_only =
+    major = yes
+    abort_trigger =
+    abort_effect =
+    fire_only_once =
+    trackable =
+    is_advisor_event =
+    auto_select =
+    mean_time_to_happen =
+    trigger =
+    immediate =
+    after =
+}

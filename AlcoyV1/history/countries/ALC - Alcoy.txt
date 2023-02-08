@@ -32,14 +32,14 @@ if = {
 }
 
 set_convoys = 75
-set_stability = 0.3
-set_war_support = 0.1
+set_stability = 0.65
+set_war_support = 0.21
 
-create_import = {
-		resource = steel
-		factories = 1
-		exporter = SPR
-}
+#create_import = {
+#		resource = steel
+#		factories = 1
+#		exporter = SPR
+#}
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.5.9"
@@ -48,10 +48,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 30
-	fascism = 50
-	neutrality = 10
-	communism = 10
+	democratic = 17
+	fascism = 54
+	neutrality = 16
+	communism = 13
 }
 
 create_country_leader = {
@@ -134,7 +134,7 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "nose"
+	name = "Yi y Pantheon"
 	picture = "hugo_y_sam.dds"
 	traits = {  }
 	skill =  4

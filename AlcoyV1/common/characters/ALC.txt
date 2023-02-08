@@ -13,7 +13,7 @@ characters={
 				original_tag = ALC
 			}
 			available = {
-				is_puppet = no
+				is_puppet = yes
 			}
 			traits = {
 				communist_revolutionary patriotic_socialist marxist_fundementalist
@@ -38,7 +38,7 @@ characters={
 				original_tag = ALC
 			}
 			available = {
-				is_puppet = no
+				is_puppet = yes
 			}
 			traits = {
 				democratic_reformer liberal_journalist popular_figurehead
@@ -63,7 +63,7 @@ characters={
 				original_tag = ALC
 			}
 			available = {
-				is_puppet = no
+				is_puppet = yes
 			}
 			traits = {
 				fascist_demagogue war_industrialist propaganda_expert
@@ -88,7 +88,7 @@ characters={
 				original_tag = ALC
 			}
 			available = {
-				is_puppet = no
+				is_puppet = yes
 			}
 			traits = {
 				captain_of_industry national_integralist
@@ -113,7 +113,7 @@ characters={
 				original_tag = ALC
 			}
 			available = {
-				is_puppet = no
+				is_puppet = yes
 			}
 			traits = {
 				prince_of_terror editor head_of_intelligence

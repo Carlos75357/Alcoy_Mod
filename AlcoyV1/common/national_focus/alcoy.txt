@@ -1,4 +1,4 @@
-﻿﻿focus_tree = {
+﻿focus_tree = {
 	id = alcoy_focus
 
 	country = {
@@ -617,6 +617,31 @@
 			swap_ideas = {
 				remove_idea = ta2_training_time
 				add_idea = ta3_training_time
+			}
+		}
+	}
+
+	# Parte terrestre
+
+	focus = {
+		id = t
+		relative_position_id = ta
+		x = -2
+		y = 2
+		cost = 1
+
+		prerequisite = {focus = ta}
+		completion_reward = {
+			army_experience = 5
+			create_field_marshal = {
+				name = "Samuel Mamado"
+				picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+				traits = { organizer trait_mountaineer bearer_of_artillery offensive_doctrine aggressive_assaulter expert_delegator }
+				skill = 5
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 4
 			}
 		}
 	}
