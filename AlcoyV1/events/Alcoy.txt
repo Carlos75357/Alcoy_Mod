@@ -1,29 +1,32 @@
+
+add_namespace = alc
+
 # Elegir entre tanques o infantería :P
 
 country_event = {
     id = alc.1
     title = alc.1.t
     desc = alc.1.d
-    show_sound =
-    force_open =
-    location =
-    situation =
-    diplomatic =
-    auto_opens =
-    is_test_event =
-    option =
-    message_desc =
-    hide_window =
-    is_triggered_only =
-    major = yes
-    abort_trigger =
-    abort_effect =
-    fire_only_once =
-    trackable =
-    is_advisor_event =
-    auto_select =
-    mean_time_to_happen =
-    trigger =
-    immediate =
-    after =
+    picture = GFX_report_event_spain_civil_war_soldiers
+
+    is_triggered_only = yes
+
+    immediate = {
+        hidden_effect = {
+               add_political_power = 100
+        }
+    }
+
+    option = { #Opcion Tanques y Motorizada
+        name = "Tanques"#alc.1.a
+        ai_chance = { base = 50 }
+        custom_effect_tooltip = choose_oil
+        set_country_flag = choose_oil
+    }
+    option = { #Opcion Infantería y Artillería
+        name = "Infanteria"#alc.1.b
+        ai_chance = { base = 50 }
+        custom_effect_tooltip = choose_shoes
+        set_country_flag = choose_shoes
+    }
 }

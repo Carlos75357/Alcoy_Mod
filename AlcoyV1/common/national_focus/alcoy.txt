@@ -643,7 +643,55 @@
 				planning_skill = 4
 				logistics_skill = 4
 			}
+			country_event = { id = alc.1 }
 		}
 	}
-	
+	focus = {
+		id = tm
+		relative_position_id = t
+		x = -6
+		y = 1
+		cost = 1
+
+		available = {
+			has_country_flag = choose_oil
+		}
+		prerequisite = {focus = t}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = armor
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+	focus = {
+		id = ia
+		relative_position_id = t
+		x = -2
+		y = 1
+		cost = 1
+
+		available = {
+			has_country_flag = choose_shoes
+		}
+		prerequisite = {focus = t}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = armor
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
 }

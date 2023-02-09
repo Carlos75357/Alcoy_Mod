@@ -187,7 +187,7 @@ bookmarks = {
 		}
 		"ALC"={
 			history = "ALC_GATHERING_STORM_DESC"
-			ideology = fascist
+			ideology = fascism
 			ideas = {
 			}
 			focuses = {
