@@ -12,9 +12,6 @@ characters={
 			allowed = {
 				original_tag = ALC
 			}
-			available = {
-				is_puppet = yes
-			}
 			traits = {
 				communist_revolutionary patriotic_socialist marxist_fundementalist
 			}
@@ -36,9 +33,6 @@ characters={
 			idea_token = dani_democratic
 			allowed = {
 				original_tag = ALC
-			}
-			available = {
-				is_puppet = yes
 			}
 			traits = {
 				democratic_reformer liberal_journalist popular_figurehead
@@ -62,9 +56,6 @@ characters={
 			allowed = {
 				original_tag = ALC
 			}
-			available = {
-				is_puppet = yes
-			}
 			traits = {
 				fascist_demagogue war_industrialist propaganda_expert
 			}
@@ -87,9 +78,6 @@ characters={
 			allowed = {
 				original_tag = ALC
 			}
-			available = {
-				is_puppet = yes
-			}
 			traits = {
 				captain_of_industry national_integralist
 			}
@@ -111,9 +99,6 @@ characters={
 			idea_token = editor
 			allowed = {
 				original_tag = ALC
-			}
-			available = {
-				is_puppet = yes
 			}
 			traits = {
 				prince_of_terror editor head_of_intelligence

@@ -363,6 +363,31 @@ ideas = {
 				training_time_army_factor = -0.3
 			}
 		}
+
+		ta3_idea_reclu_pob = {
+			#picture =
+			allowed = {
+				TAG = ALC
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.06
+			}
+		}
 		#////////// Parte terrestre //////////
 
     }
